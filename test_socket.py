@@ -1,5 +1,7 @@
 import socket 
 
+""" Script to validate if the port is open in a host """
+
 ip = socket.gethostbyname('0.0.0.0')
 PORT = 1025
 
